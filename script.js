@@ -65,7 +65,7 @@ if (form && formStatus) {
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     );
 
-    window.location.href = `mailto:junedshaikh05311@gmail.com?subject=${subject}&body=${bodyText}`;
+    window.location.href = `mailto:junedshaikh0531@gmail.com?subject=${subject}&body=${bodyText}`;
     formStatus.textContent = "Opening your email client...";
     form.reset();
   });
